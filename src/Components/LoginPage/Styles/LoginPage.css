@@ -1,0 +1,149 @@
+.loginBox {
+  width: 80%;
+  height: calc(100vh - calc(4vw + 60px));
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.LoginContainer {
+  width: 100%;
+  height: fit-content;
+  text-align: left;
+}
+.LoginHeader {
+  height: calc(2vw + 30px);
+  width: 100%;
+  background: linear-gradient(to bottom, #4283cc, #3162b5);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.TextContainer {
+  font-size: calc(0.4vw + 10px);
+  margin: 0 1.5vw;
+  font-weight: 500;
+  color: white;
+  font-weight: 600;
+}
+.mailId {
+  font-size: calc(0.25vw + 10px);
+  font-weight: 500;
+}
+.LogoContainer {
+  width: fit-content;
+  height: 80%;
+  margin: 0 1.5vw;
+}
+.LogoImg {
+  height: 100%;
+  width: auto;
+}
+.loginCardMain {
+  width: 94%;
+  height: fit-content;
+  text-align: center;
+  margin: 3%;
+  font-size: calc(0.7vw + 15px);
+}
+.gmailLogin {
+  width: 50%;
+  margin: auto;
+}
+.gmailBtn {
+  border: 0;
+  padding: calc(0.25vw + 5px) calc(1vw + 5px);
+  font-size: calc(0.5vw + 10px);
+  background-color: #d34836;
+  color: white;
+  border-radius: calc(0.25vw + 3px);
+  margin: 2% 0 0 0;
+  cursor: pointer;
+}
+.Border {
+  width: 60%;
+  height: 2px;
+  background-color: #80808066;
+  text-align: center;
+  position: relative;
+  margin: 1%;
+}
+.Border span {
+  position: absolute;
+  z-index: 99;
+  background-color: white;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  font-size: calc(0.5vw + 10px);
+}
+.emailLogin {
+  margin: 3%;
+  width: 94%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.emailLoginInner {
+  margin: auto;
+  width: 50%;
+  font-size: calc(0.5vw + 10px);
+}
+.label {
+  margin: 1vw 0;
+}
+#emailInput {
+  font-size: calc(1vw + 10px);
+  width: 98%;
+  padding: 1%;
+  outline: none;
+  margin: 0 0 3vw 0;
+}
+.TandC {
+  text-align: center;
+}
+.submitBtn {
+  font-size: calc(0.7vw + 10px);
+  width: 100%;
+  padding: 1.5%;
+  outline: none;
+  margin: 1vw 0 0 0;
+  background-color: #3162b5;
+  color: white;
+  border: 0;
+  border-radius: calc(0.2vw + 3px);
+  cursor: pointer;
+}
+
+/* footer */
+
+.LoginFootermain {
+  width: 100%;
+  height: calc(2vw + 30px);
+  display: flex;
+  box-shadow: 0px 0px 5px #80808082;
+  font-size: calc(0.5vw + 10px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footerLogo {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.footerLogoImg {
+  height: 80%;
+  width: auto;
+  margin: 0 0.7vw;
+}
+.steps {
+  font-size: calc(0.6vw + 8px);
+  margin: 0 1vw;
+}
+.steps #step {
+  font-size: calc(1vw + 10px);
+  font-weight: 600;
+}

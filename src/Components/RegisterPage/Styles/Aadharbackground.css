@@ -1,0 +1,30 @@
+.RequestBtn {
+  border: none;
+  background-color: #3162b0;
+  font-size: calc(0.75vw + 10px);
+  font-weight: 600;
+  color: white;
+  padding: 1% 5%;
+  border-radius: calc(0.1vw + 3px);
+  margin: 2% 0;
+}
+.disabled {
+  background-color: grey;
+  cursor: not-allowed;
+}
+.NonDisclosure {
+  position: relative;
+  top: calc(2.5vw + 30px);
+  width: 100%;
+  height: calc(100vh - calc(2.5vw + 30px));
+}
+.NonDisclosure .imageContainer {
+  height: 100%;
+}
+.NonDisclosureImg {
+  height: 100%;
+  width: auto;
+  border: 1px solid #80808052;
+  margin: 1% 0;
+  border-radius: calc(0.2vw + 3px);
+}
